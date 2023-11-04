@@ -8,7 +8,7 @@ public class UserLogIn {
 		String username = rb.getString("username");
 		String password = rb.getString("password");
 
-		if(in_user.equals(username) && in_password.equals("password")) {
+		if(in_user.equals(username) && in_password.equals(password)) {
 			return 1;
 		}else {
 			return 0;
